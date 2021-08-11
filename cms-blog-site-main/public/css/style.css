@@ -1,0 +1,122 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Georgia', serif;
+    background-color: #FAFDF6;
+}
+
+a{
+    text-decoration: none;
+    color: #ACC3A6;
+}
+
+a:hover{
+    color: white;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #64865B;
+    padding: 15px;
+}
+
+button{
+    padding: 6px;
+    background-color: #40553A;
+    color: white;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #ACC3A6;
+    color: black;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ACC3A6;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-header h2{
+    color: white;
+    padding-left: 20px;
+}
+
+.main-header nav{
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.form{
+    padding: 70px 30px 30px 30px;
+}
+
+.form div{
+    padding: 7px 7px 7px 0;
+}
+
+.form h4{
+    text-decoration: underline;
+}
+
+.homepage{
+    padding: 100px 30px 30px 30px;
+}
+
+.post{
+    padding: 20px;
+    display: block;    
+}
+
+.title{
+    font-size: 25px;
+    color:#D8DCFF;
+    background-color: #ACC3A6;
+    padding: 6px;
+}
+
+.dashboard{
+    padding: 85px 30px 30px 30px;
+}
+
+.dashboard label{
+    display: block;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.dashboard textarea{
+    width: 500px;
+    height: 100px;
+}
+
+.dashboard input{
+    width: 250px;
+    height: 40px;
+    padding-top: 15px;
+}
+
+.info{
+    padding: 20px 0;
+}
+
+.single-post{
+    padding: 85px 30px 30px 30px;
+}
+
+.blog-content{
+    padding: 20px 0;
+}
