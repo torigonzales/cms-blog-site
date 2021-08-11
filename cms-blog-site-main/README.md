@@ -1,6 +1,5 @@
-# cms-blog-site
 # challenge-14
-Blog Site 
+CMS-Blog Site 
 ### Table of Contents
 - [Description](#description)
 - [Introduction](#introduction)
@@ -11,16 +10,14 @@ Blog Site
 ---
 
 ## Description
-
-
----
-
-## Introduction 
-
+AS A developer who writes about tech
+I WANT a CMS-style blog site
+SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ---
 
 ## Challenges
+This challenge was very challenging, but fun to create! 
 
 
 
@@ -38,7 +35,7 @@ Blog Site
 
 ## Resources 
 
-<a href="">GitHub Repo</a>
+<a href="https://github.com/torigonzales/cms-blog-site/tree/main/cms-blog-site-main">GitHub Repo</a>
 
 <a href="https://www.youtube.com/watch?v=eVGEea7adDM"> YouTube</a>
 
