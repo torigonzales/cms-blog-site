@@ -2,19 +2,19 @@ const { Post } = require('../models');
 
 const posts = [
     {
-        title: 'How to get out of bed',
-        contents: 'Just do it',
+        title: 'How to wash your car',
+        contents: 'Take it to a car wash',
         user_id: 2
     },
     {
-        title: 'How to stay in bed all day',
-        contents: 'Its really not that hard',
+        title: 'How to fly a kite',
+        contents: 'You will need wind',
         user_id: 1
     }
 ]
 
 sequelize
-  .sync({ force: true })
+  .sync({ force: false })
   .then(() => {
     return Post.bulkCreate(posts);
   })

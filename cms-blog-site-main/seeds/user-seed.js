@@ -1,17 +1,25 @@
 const { User } = require('../models');
+const Sequelize = require('sequelize');
+const sequelize = new Sequelize('blog_db', 'root', 'Lock3636.', {
+  host: 'localhost',
+  dialect: 'mysql',
+  port: 3306
+});
+
+
 
 const users = [
     {
-        username: 'sheila123',
-        password: 'shiela321'
+        username: 'tori123',
+        password: 'tori321'
     },
     {
-        username: 'lollipops',
-        password: 'lalala3'
+        username: 'rainbows',
+        password: 'red1'
     },
     {
-        username: 'honeybee',
-        password: 'buzzbuzzb'
+        username: 'rachael12',
+        password: 'sister2'
     }
 ]
 
@@ -19,7 +27,7 @@ const users = [
 
 
 sequelize
-  .sync({ force: true })
+  .sync({ force: false })
   .then(() => {
     return User.bulkCreate(users);
   })

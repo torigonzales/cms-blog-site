@@ -2,34 +2,34 @@ const { Comment } = require('../models');
 
 const comments = [
     {
-        comment_text: 'this is great, man',
+        comment_text: 'this is great!',
         user_id: 2,
         post_id: 1
     },
     {
-        comment_text: 'unbelievable',
+        comment_text: 'Thanks!',
         user_id: 1,
         post_id: 2
     },
     {
-        comment_text: 'Super bueno',
+        comment_text: 'Nice!',
         user_id: 3,
         post_id: 1
     },
     {
-        comment_text: 'radical',
+        comment_text: 'Sweet!',
         user_id: 1,
         post_id: 1
     },
     {
-        comment_text: 'cool cool cool',
+        comment_text: 'Cool!',
         user_id: 2,
         post_id: 2
     },
 ]
 
 sequelize
-  .sync({ force: true })
+  .sync({ force: false })
   .then(() => {
     return Comment.bulkCreate(comments);
   })

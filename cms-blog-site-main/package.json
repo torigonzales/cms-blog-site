@@ -6,19 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/user-seed.js && node seeds/post-seed.js && node seeds/comment-seed.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharni595/cms-blog-site.git"
+    "url": "git+https://github.com/torigonzales/cms-blog-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sharni595/cms-blog-site/issues"
+    "url": "https://github.com/torigonzales/cms-blog-site/issues"
   },
-  "homepage": "https://github.com/sharni595/cms-blog-site#readme",
+  "homepage": "https://github.com/torigonzales/cms-blog-site#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
