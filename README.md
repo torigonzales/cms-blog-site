@@ -21,14 +21,14 @@ This challenge was very challenging, but fun to create!
 
 
 
-<img src="./images/apikey.png"/>
+<img src=""/>
 ---
 
 
 ## Victories
 
 
-<img src="./images/weatherapp.png"/>
+<img src=""/>
 
 ---
 
