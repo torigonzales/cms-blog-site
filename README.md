@@ -32,7 +32,7 @@ This challenge was very challenging, but fun to create!
 ## Victories
 
 
-<img src=""/>
+
 
 ---
 
