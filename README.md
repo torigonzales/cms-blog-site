@@ -21,7 +21,11 @@ This challenge was very challenging, but fun to create!
 
 
 
-<img src=""/>
+<img src="./public/images/blog1.png"/>
+
+<img src="./public/images/blog2.png"/>
+
+<img src="./public/images/blog3.png"/>
 ---
 
 
@@ -35,7 +39,7 @@ This challenge was very challenging, but fun to create!
 
 ## Resources 
 
-<a href="https://github.com/torigonzales/cms-blog-site/tree/main/cms-blog-site-main">GitHub Repo</a>
+<a href="https://github.com/torigonzales/cms-blog-site">GitHub Repo</a>
 
 <a href="https://www.youtube.com/watch?v=eVGEea7adDM"> YouTube</a>
 
